@@ -1,25 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 
 * {
-  padding: 0px;
-  margin: 0px;
-  border: none;
+    padding: 0px;
+    margin: 0px;
+    border: none;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+
 
 a,
 a:link,
 a:visited {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 aside,
@@ -28,7 +30,7 @@ footer,
 header,
 section,
 main {
-  display: block;
+    display: block;
 }
 
 h1,
@@ -38,225 +40,244 @@ h4,
 h5,
 h6,
 p {
-  font-size: inherit;
-  font-weight: inherit;
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 ul,
 ul li {
-  list-style: none;
+    list-style: none;
 }
 
 img {
-  vertical-align: top;
+    vertical-align: top;
 }
 
 img,
 svg {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 address {
-  font-style: normal;
+    font-style: normal;
 }
+
 
 input,
 textarea,
 button,
 select {
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
-  background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
 }
 
 input::-ms-clear {
-  display: none;
+    display: none;
 }
 
 button,
 input[type="submit"] {
-  display: inline-block;
-  box-shadow: none;
-  background-color: transparent;
-  background: none;
-  cursor: pointer;
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
 }
 
 input:focus,
 input:active,
 button:focus,
 button:active {
-  outline: none;
+    outline: none;
 }
 
 button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+    padding: 0;
+    border: 0;
 }
 
 label {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 legend {
-  display: block;
+    display: block;
 }
 
+
 html {
-  scroll-behavior: smooth;
-  background: rgb(174, 174, 174);
+    scroll-behavior: smooth;
+    background: rgb(174, 174, 174);
 }
 
 body {
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #4d2323;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
 }
 
-[class*="title"] {
-  font-weight: 900;
+[class*='title'] {
+    font-weight: 900;
 }
 
 .contenier {
-  box-shadow: 6px 6px 6px black;
-  background: white;
-  max-width: 1440px;
-  margin: 0 auto;
+    box-shadow: 6px 6px 6px black;
+    background: white;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .nav-list {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-  background: green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    background: green;
 }
 
 .nav-link {
-  padding: 0 20px;
-  line-height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
 }
 
 .nav-link {
-  color: white;
-  text-decoration: none;
-  transition: color 0.5s;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
 }
 
 .nav-link:hover {
-  color: black;
+    color: black;
 }
 
 .photo {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 .section {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .contacts__box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .section-title {
-  border-bottom: 1px solid black;
-  padding: 0px 0px 28px;
-  color: #4d2323;
-  font-size: 32px;
-  font-weight: 300;
-  letter-spacing: 10px;
-  line-height: 50px;
-  word-spacing: 3px;
+    border-bottom: 1px solid black;
+    padding: 0px 0px 28px;
+    color: #4d2323;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
 }
 
 .section-title2 {
-  color: #4d2323;
-  line-height: 50px;
-  font-weight: 300;
-  letter-spacing: 2px;
+    color: #4d2323;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
+
 .summary {
-  padding: 20px 0px;
+    padding: 20px 0px;
 }
 
 .summary__box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .summary-title {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
+
 
 .summary-item {
-  line-height: 25px;
+    line-height: 25px;
 }
+
+
+
 
 .section__skills {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
+
+
 
 .skills-item {
-  line-height: 25px;
+    line-height: 25px;
 }
 
+
 .education-title {
-  padding: 20px 0px 0px;
-  display: flex;
-  justify-content: center;
+    padding: 20px 0px 0px;
+    display: flex;
+    justify-content: center;
 }
 
 .skills {
-  padding: 20px 0px 0px;
-  border-bottom: 5px solid #12a312;
-  border-top: 5px solid #12a312;
+    padding: 20px 0px 0px;
+    border-bottom: 5px solid #12a312;
+    border-top: 5px solid #12a312;
+
 }
+
 
 .languages-title {
-  padding: 20px 0px 0px;
-  display: flex;
-  justify-content: center;
+    padding: 20px 0px 0px;
+    display: flex;
+    justify-content: center;
 }
 
+
+
 .footer {
-  background: white;
+    background: white;
 }
 
 .footer__box {
-  line-height: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1440px;
-  margin: 0 auto;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
+
+
 
 .git__link {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
+
+
 .rss__logo {
-  width: 100px;
-  height: auto;
+    width: 100px;
+    height: auto;
 }
